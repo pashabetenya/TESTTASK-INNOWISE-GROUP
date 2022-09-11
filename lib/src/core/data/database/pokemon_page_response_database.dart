@@ -1,0 +1,3 @@
+class PokemonPageResponseDatabase {
+  // body.
+}
