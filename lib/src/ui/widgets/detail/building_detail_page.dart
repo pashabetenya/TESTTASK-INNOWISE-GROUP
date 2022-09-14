@@ -1,9 +1,4 @@
-import 'package:application/src/core/bloc/detail/pokemon_detail_cubit.dart';
-import 'package:application/src/core/models/pokemon_detail_listing.dart';
-import 'package:application/src/core/utils/constants.dart';
-import 'package:flutter/material.dart';
-import 'package:application/src/ui/widgets/items/detail_pokemon_item.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:application/src/ui/widgets/detail/index.dart';
 
 class BuildingDetailPage extends StatefulWidget {
   const BuildingDetailPage({Key? key}) : super(key: key);

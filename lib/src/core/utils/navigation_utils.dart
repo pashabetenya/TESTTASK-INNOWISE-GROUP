@@ -1,8 +1,4 @@
-import 'package:application/src/core/bloc/navigation/navigation_cubit.dart';
-import 'package:application/src/ui/pages/detail/detail_page.dart';
-import 'package:application/src/ui/pages/home/home_page.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:application/src/core/utils/index.dart';
 
 class NavigationUtils extends StatelessWidget {
   const NavigationUtils({Key? key}) : super(key: key);

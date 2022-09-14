@@ -1,6 +1,4 @@
-import 'package:application/src/ui/widgets/data/data_title.dart';
-import 'package:application/src/ui/widgets/data/data_value.dart';
-import 'package:flutter/material.dart';
+import 'package:application/src/ui/widgets/detail/index.dart';
 
 class DescriptionText extends StatelessWidget {
   final String dataValue;

@@ -1,8 +1,4 @@
-import 'package:application/src/core/bloc/home/pokemon_bloc.dart';
-import 'package:application/src/core/bloc/navigation/navigation_cubit.dart';
-import 'package:application/src/ui/widgets/items/pokemon_item.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:application/src/ui/widgets/home/index.dart';
 
 class BuildingHomePage extends StatefulWidget {
   const BuildingHomePage({Key? key}) : super(key: key);

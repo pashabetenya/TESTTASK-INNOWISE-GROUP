@@ -1,4 +1,4 @@
-import 'package:application/src/core/models/pokemon_listing.dart';
+import 'package:application/src/core/models/index.dart';
 
 class PokemonPageResponse {
   final List<PokemonListing> pokemonListings;

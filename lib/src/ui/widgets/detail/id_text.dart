@@ -1,5 +1,4 @@
-import 'package:application/src/core/utils/constants.dart';
-import 'package:flutter/material.dart';
+import 'package:application/src/ui/widgets/detail/index.dart';
 
 class IdText extends StatelessWidget {
   final int id;

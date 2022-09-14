@@ -1,5 +1,4 @@
-import 'package:application/src/core/bloc/detail/pokemon_detail_cubit.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:application/src/core/bloc/navigation/index.dart';
 
 class NavigationCubit extends Cubit<int?> {
   PokemonDetailCubit pokemonDetailCubit;

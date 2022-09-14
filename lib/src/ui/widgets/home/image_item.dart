@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+import 'package:application/src/ui/widgets/home/index.dart';
 
 class ImageItem extends StatelessWidget {
   final String link;

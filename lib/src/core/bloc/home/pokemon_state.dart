@@ -10,8 +10,10 @@ class PokemonPageLoadSuccess extends PokemonState {
   final List<PokemonListing> pokemonListings;
   final bool canLoadNextPage;
 
-  PokemonPageLoadSuccess(
-      {required this.pokemonListings, required this.canLoadNextPage});
+  PokemonPageLoadSuccess({
+    required this.pokemonListings,
+    required this.canLoadNextPage,
+  });
 }
 
 class PokemonPageLoadFailed extends PokemonState {

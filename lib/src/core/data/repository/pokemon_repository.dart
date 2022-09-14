@@ -1,7 +1,4 @@
-import 'package:application/src/core/data/network/pokemon_detail_page_response_network.dart';
-import 'package:application/src/core/data/network/pokemon_page_response_network.dart';
-import 'package:application/src/core/models/pokemon_detail_page_response.dart';
-import 'package:application/src/core/models/pokemon_page_response.dart';
+import 'package:application/src/core/data/repository/index.dart';
 
 class PokemonRepository {
   final PokemonPageResponseNetwork _pokemonPageResponseNetwork =

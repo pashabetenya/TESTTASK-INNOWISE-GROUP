@@ -1,7 +1,4 @@
-import 'package:application/src/core/utils/constants.dart';
-import 'package:application/src/ui/pages/detail/components/building_detail_page.dart';
-import 'package:application/src/ui/widgets/texts/title_page.dart';
-import 'package:flutter/material.dart';
+import 'package:application/src/ui/pages/index.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({Key? key}) : super(key: key);
@@ -15,7 +12,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const TitlePage(color: kLightGrey, title: 'Detail Page'),
+        title: const DetailTitleText(),
         elevation: 0.6,
       ),
       backgroundColor: Colors.white,

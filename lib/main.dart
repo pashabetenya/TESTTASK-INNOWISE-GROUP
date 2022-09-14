@@ -1,10 +1,4 @@
-import 'package:application/src/core/bloc/detail/pokemon_detail_cubit.dart';
-import 'package:application/src/core/bloc/home/pokemon_bloc.dart';
-import 'package:application/src/core/bloc/navigation/navigation_cubit.dart';
-import 'package:application/src/core/utils/navigation_utils.dart';
-import 'package:application/src/core/utils/theme_utils.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:application/index.dart';
 
 void main() {
   runApp(const Application());

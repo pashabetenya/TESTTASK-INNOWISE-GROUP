@@ -1,7 +1,4 @@
-import 'dart:convert';
-
-import 'package:application/src/core/models/pokemon_detail_page_response.dart';
-
+import 'package:application/src/core/data/network/index.dart';
 import 'package:http/http.dart' as http;
 
 class PokemonDetailPageResponseNetwork {
