@@ -1,11 +1,15 @@
-import 'package:application/clean%20architecture/domain/models/pokemon_listing.dart';
-
 class PokemonPageResponse {
-  final List<PokemonListing> pokemonListings;
-  final bool canLoadNextPage;
+  final int id;
+  final String name;
+  final String url;
+  final String image;
+
+  String get imageUrl => 'https://cdn.traction.one/pokedex/pokemon/$id.png';
 
   PokemonPageResponse({
-    required this.pokemonListings,
-    required this.canLoadNextPage,
+    required this.id,
+    required this.name,
+    required this.url,
+    required this.image,
   });
 }
