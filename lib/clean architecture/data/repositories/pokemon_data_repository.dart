@@ -2,7 +2,7 @@ import 'package:application/clean%20architecture/data/api/utils/pokemon_util.dar
 import 'package:application/clean%20architecture/domain/models/pokemon_page_response.dart';
 import 'package:application/clean%20architecture/domain/repositories/pokemon_page_response_repository.dart';
 
-abstract class PokemonDataRepository extends PokemonPageResponseRepository {
+class PokemonDataRepository extends PokemonPageResponseRepository {
   final PokemonUtil util;
 
   PokemonDataRepository(this.util);
