@@ -8,7 +8,7 @@ class PokemonDataRepository extends PokemonPageResponseRepository {
   PokemonDataRepository(this.util);
 
   @override
-  Future<PokemonPageResponse> getPokemonPage({required int index}) {
-    return util.getPokemon(index: index);
+  Future<PokemonPageResponse> getPokemonPage() {
+    return util.getPokemon();
   }
 }

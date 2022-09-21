@@ -4,10 +4,10 @@ import 'package:application/clean%20architecture/domain/models/pokemon_page_resp
 class PokemonListingMapper {
   static PokemonPageResponse fromApi(PokemonPageResponseApi pokemon) {
     return PokemonPageResponse(
-      id: pokemon.id,
+      // id: pokemon.id,
       name: pokemon.name,
-      url: pokemon.url,
-      image: pokemon.imageUrl,
+      // url: pokemon.url,
+      // image: pokemon.imageUrl,
     );
   }
 }

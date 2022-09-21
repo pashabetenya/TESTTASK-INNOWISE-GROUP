@@ -7,8 +7,8 @@ class PokemonUtil {
 
   PokemonUtil(this.service);
 
-  Future<PokemonPageResponse> getPokemon({required int index}) async {
-    final result = await service.getPokemonPage(index);
+  Future<PokemonPageResponse> getPokemon() async {
+    final result = await service.getPokemonPage();
 
     return PokemonListingMapper.fromApi(result);
   }

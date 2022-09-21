@@ -1,15 +1,15 @@
 class PokemonPageResponse {
-  final int id;
+  // final int id;
   final String name;
-  final String url;
-  final String image;
+  // final String url;
+  // final String image;
 
-  String get imageUrl => 'https://cdn.traction.one/pokedex/pokemon/$id.png';
+  // String get imageUrl => 'https://cdn.traction.one/pokedex/pokemon/$id.png';
 
   PokemonPageResponse({
-    required this.id,
+    // required this.id,
     required this.name,
-    required this.url,
-    required this.image,
+    // required this.url,
+    // required this.image,
   });
 }
