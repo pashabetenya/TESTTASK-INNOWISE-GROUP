@@ -11,8 +11,8 @@ class PokemonApiImpl implements PokemonApi {
   PokemonApiImpl({required this.client});
 
   @override
-  Future<PokemonPageResponseDTO> getPokemonApi(int index) async {
-    final queryParameters = {'limit': '20', 'offset': (index * 20).toString()};
+  Future<PokemonPageResponseDTO> getPokemonsResponseFromApi(String name) async {
+    final queryParameters = {'limit': '20', 'offset': (1 * 20).toString()};
 
     final uri = Uri.https(baseUrl, '/api/v2/pokemon', queryParameters);
     final response = await client.get(uri);

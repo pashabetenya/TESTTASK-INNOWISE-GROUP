@@ -11,7 +11,7 @@ class PokemonDetailApiImpl implements PokemonDetailApi {
   PokemonDetailApiImpl({required this.client});
 
   @override
-  Future<PokemonDetailPageResponseDTO> getPokemonDetailApi(int index) async {
+  Future<PokemonDetailPageResponseDTO> getPokemonDetailsApi(int index) async {
     final uri = Uri.https(baseUrl, '/api/v2/pokemon/$index');
     final response = await client.get(uri);
 

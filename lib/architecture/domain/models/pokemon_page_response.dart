@@ -19,8 +19,7 @@ class PokemonPageResponse {
       identical(this, other) ||
       other is PokemonPageResponse &&
           pokemonListings == pokemonListings &&
-          canLoadNextPage &&
-          canLoadNextPage;
+          canLoadNextPage == canLoadNextPage;
 
   @override
   int get hashCode => pokemonListings.hashCode ^ canLoadNextPage.hashCode;

@@ -1,6 +1,5 @@
-import 'package:application/architecture/common/exception.dart';
 import 'package:application/architecture/domain/datasources/local/database.dart';
-import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 class DatabaseImpl implements Database {
   final Box box;
@@ -12,7 +11,7 @@ class DatabaseImpl implements Database {
     try {
       final data = box.toMap().values;
       if (data.isEmpty) {
-        throw AppException.noRecords();
+        throw 'it is error..';
       }
 
       return data.toList().cast<T>();
@@ -22,11 +21,11 @@ class DatabaseImpl implements Database {
   }
 
   @override
-  T get<T>(String id, {T? defaultValue}) {
+  T get<T>(String index, {T? defaultValue}) {
     try {
-      final data = box.get(id, defaultValue: defaultValue);
+      final data = box.get(index, defaultValue: defaultValue);
       if (data == null) {
-        throw AppException.noRecords();
+        throw 'it is error..';
       }
       return data;
     } catch (_) {
