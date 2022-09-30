@@ -29,6 +29,7 @@ dependencies:
   flutter_bloc: ^7.1.0
   http: ^0.13.4
   provider: ^6.0.3
+  shared_preferences: ^2.0.15
 
 
 
